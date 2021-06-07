@@ -1,0 +1,49 @@
+inicio
+	var altura;
+	var edad;
+	var sexo;
+	var promedioh;
+	var promediom;
+	var promediot
+	var sumam
+	var sumah
+	var sumat
+	var cantidadh
+	var cantidadam
+	var cantidadt
+
+	mientra altura > 0
+	
+	  mostrar "ingrese altura "
+	  leer altura
+			  
+	  mostrar "ingrese edad "
+	  leer edad
+
+	  mostrar "ingrese sexo "
+	  leer sexo
+
+	  sumat = sumat + edad
+	  cantidadt++
+
+	  si genero == H{
+	    sumah=sumah+altura
+	    cantidadh++
+	  }
+	
+	  si contraio genero == M{
+	    sumam=sumam+altura
+	    cantidadm++
+	  }
+	  fin si
+
+	fin mientras
+
+	promedioh=sumah/cantidadh
+	promediom=sumam/cantidadm
+	promediot=sumat/cantidadt
+
+	mostrar "promedio altura hombres"+promedioh;
+	mostrar "promedio altura mujeres"+promediom;
+	mostrar "promedio edad participantes"+promediot;
+fin
